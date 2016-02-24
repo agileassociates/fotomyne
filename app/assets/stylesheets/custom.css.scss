@@ -1,0 +1,187 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
+
+body {
+  padding-top: 60px;
+
+  background-color: #fafafa;
+  font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+#img {
+  height: 200px;
+  width: 180px;
+  overflow: hidden;
+}
+/* header */
+
+.caption {
+  padding: 24px 24px;
+  font-size: 15px;
+  line-height: 18px;
+
+}
+
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+.navbar-brand {
+  a {
+    color: #125688;
+  }
+}
+
+.navbar-default {
+  background-color: #fff;
+  height: 54px;
+  .navbar-nav li a {
+    color: #125688;
+  }
+}
+
+.navbar-container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.posts-wrapper {
+  padding-top: 40px;
+  margin: 0 auto;
+  max-width: 642px;
+  width: 100%;
+}
+
+.post {
+  background-color: #fff;
+  border-color: #edeeee;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-bottom: 60px;
+}
+
+.post-head {
+  height: 64px;
+  padding: 14px 20px;
+  color: #125688;
+  font-size: 15px;
+  line-height: 18px;
+  .thumbnail {}
+  .name {
+    display: block;
+  }
+}
+
+.image {
+  border-bottom: 1px solid #eeefef;
+  border-top: 1px solid #eeefef;
+}
+
+.caption {
+  padding: 24px 24px;
+  font-size: 15px;
+  line-height: 18px;
+
+}
+
+.form-wrapper {
+  width: 60%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 40px;
+  border: 1px solid #eeefef;
+  border-radius: 3px;
+}
+
+.edit-links {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
+  a {
+    color: $gray;
+    &:hover {
+      color: $gray-darker;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
