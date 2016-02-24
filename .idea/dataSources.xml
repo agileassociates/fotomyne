@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1182663190">
+    <data-source source="LOCAL" name="Rails fotomyne: development" uuid="a261acf6-46f3-4230-a74b-90e1783f55db">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:fotomyne_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails fotomyne: test" uuid="752a663b-0386-4a71-bd3c-feab02703d40">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:fotomyne_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails fotomyne: production" uuid="74da7d47-8afb-41d2-bb18-47932091f9d8">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:fotomyne_production</jdbc-url>
+      <user-name>fotomyne</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfecdfe5dffedfe5dfe7dff3dfe4dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
